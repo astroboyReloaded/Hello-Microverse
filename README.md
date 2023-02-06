@@ -65,8 +65,6 @@
 - **A `.github/workflows/linters.yml`** file to run linters on GitHub Pull Request.
 - **A** `.gitignore` file, including `node_modules/`.
 
-- [Sass](https://sass-lang.com/).
-
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
@@ -120,7 +118,7 @@ npx hint .
 ```sh
 `npx stylelint "**/*.{css,scss}"`
 ``` 
-_NOTE: this repo is set up to use with CSS. If you would like to use SCSS, you must replace `"**/*.{css,scss}"` with `"**/*.scss"` in **line 48** of the `linters.yml` file, and run the linter with:_
+_NOTE: this repo is set up to use with CSS. If you would like to use [SCSS](https://sass-lang.com/)., you must replace `"**/*.{css,scss}"` with `"**/*.scss"` in **line 48** of the `linters.yml` file, and run the linter with:_
 ```sh
 npx stylelint "**/*.scss"
 ```
