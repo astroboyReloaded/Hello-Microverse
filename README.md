@@ -85,13 +85,17 @@
 In order to run this project you need:
 
 - Have [npm](https://www.npmjs.com/package/npm) installed in your project:
-  `curl -qL https://www.npmjs.com/install.sh | sh`
+  ```sh
+  curl -qL https://www.npmjs.com/install.sh | sh
+  ```
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-`git clone https://github.com/astroboyReloaded/Hello-Microverse.git`
+```sh
+git clone https://github.com/astroboyReloaded/Hello-Microverse.git
+```
 
 or
 
@@ -122,6 +126,10 @@ _NOTE: this repo is set up to use with CSS. If you would like to use [SCSS](http
 npx stylelint "**/*.scss"
 ```
  _instead_.
+ 
+ ```sh
+ npx eslint .
+ ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
